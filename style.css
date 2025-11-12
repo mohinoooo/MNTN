@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* RESET */
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     color: white;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 /* ---------les classe fonctionelles flex box ---------*/
@@ -35,7 +38,7 @@ justify-content:flex-start;
 
 /* alignement verticale */
 
-.aligne-center {
+.align-center {
 align-items:center;
 }
 .align-end{
@@ -46,6 +49,10 @@ align-items:end;
 
 .gap-12 {
 gap:12px;
+}
+
+.gap-230{
+    gap: 230px;
 }
 
 /* les classes de largeur */
@@ -88,7 +95,7 @@ a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 250vh;
 }
 ul{
     list-style-type: none;
@@ -105,4 +112,64 @@ body{
     position: fixed;
     top: 200px;
     right: 10px;
+}
+
+.position-header{
+    position: fixed;
+    top: 20px;
+    gap: 450px;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.margin-bottom-100{
+    margin-bottom: 100px;
+}
+
+.yellow{
+    color:#fbd784;
+}
+
+.nodeco{
+    text-decoration: none;
+    list-style-type: none;
+}
+h2, a{
+    color: #fbd784;
+}
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 45px
+}
+header, a {
+    color: white;
+}
+
+.trait {
+    background-color: #fbd784;
+    height: 2px;
+    width: 60px;
+}
+
+.big-number{
+    font-size: 150px;
+    position: absolute;
+    color:transparent;
 }
